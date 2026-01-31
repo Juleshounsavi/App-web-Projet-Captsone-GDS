@@ -10,11 +10,11 @@ Ce projet s’inscrit dans une démarche de **Green AI**, visant à sensibiliser
 
 ---
 
-## 🚀 Demo
+## Demo
 
-👉 Application en ligne (Streamlit Cloud) :  
+Application en ligne (Streamlit Cloud) :  
 **https://YOUR-APP.streamlit.app**  
-*(lien à ajouter après déploiement)*
+
 
 ---
 
