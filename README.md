@@ -18,40 +18,34 @@ Ce projet s’inscrit dans une démarche de **Green AI**, visant à sensibiliser
 
 ---
 
-## 📄 Description
+##  Description
 
 L’entraînement des modèles de Machine Learning peut être coûteux en énergie, en particulier lors de l’utilisation de GPU.  
 Cette application permet de :
 
 - Estimer l’énergie consommée (en kWh)
-- Calculer les émissions de CO₂ correspondantes (en kg)
-- Fournir une **évaluation qualitative** de l’impact environnemental
-- Comparer l’impact selon le **type de matériel** utilisé (CPU ou GPU)
+- Estimer les émissions de CO₂ correspondantes (en kg)
+- Fournir une **évaluation qualitative** de l’impact environnemental et une **recommandation**
 
 ---
 
-## ✨ Fonctionnalités
+## Fonctionnalités
 
-### 🔢 Entrées interactives
+###  Entrées interactives
 - Durée d’entraînement (en heures)
 - Puissance du matériel (en Watts)
 - Facteur d’émission carbone (kg CO₂ / kWh)
-- Type de matériel :
-  - CPU
-  - GPU (consommation estimée plus élevée)
+- Type de matériel (CPU ou GPU)
+  
 
-### 📊 Résultats affichés
+###  Résultats affichés
 - Énergie consommée (kWh)
 - Émissions estimées de CO₂ (kg)
-- Évaluation de l’impact environnemental :
-  - ✅ Très faible impact
-  - ⚠️ Impact modéré
-  - 🚨 Impact élevé
-  - 🌍🔥 Impact très élevé
+- Évaluation de l’impact (Très faible ou modéré ou élevé ou très élevé) environnemental et recommendation :
 
 ---
 
-## 📊 Exemple d’utilisation
+## Exemple d’utilisation
 
 **Paramètres :**
 - Durée : 5 heures  
@@ -62,14 +56,15 @@ Cette application permet de :
 **Résultats estimés :**
 - Énergie consommée : 2.50 kWh  
 - Émissions de CO₂ : ~0.58 kg  
-- Impact : ⚠️ Impact modéré
+- Impact : Très faible impact (bonnes pratiques)
 
 ---
 
-## ⚙️ Installation locale
+##  Installation locale
 
 ### Prérequis
 - Python 3.9 ou plus
+- Streamlit
 - pip
 
 ### Étapes
