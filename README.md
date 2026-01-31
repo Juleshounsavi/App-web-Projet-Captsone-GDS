@@ -76,6 +76,7 @@ git clone https://github.com/Juleshounsavi/App-web-Projet-Captsone-GDS.git
 cd App-web-Projet-Captsone-GDS
 pip install -r requirements.txt
 streamlit run app.py
+```
 
 ![System Diagram](./test.png)
 
