@@ -13,7 +13,7 @@ Ce projet s’inscrit dans une démarche de **Green AI**, visant à sensibiliser
 ## Demo
 
 Application en ligne (Streamlit Cloud) :  
-**https://YOUR-APP.streamlit.app**  
+**https://ml-carbon-calculator.streamlit.app/**  
 
 
 ---
